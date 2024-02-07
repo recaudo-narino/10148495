@@ -1,0 +1,115 @@
+@media (min-width: 956px) {
+    .dialog-container{ margin: 0 auto;   width: 42%;  max-height: 85%; margin-top: 60px;}
+    .contenedor_tablas{ display:block; }
+    .contenedor_cards{ display:none; }
+
+    /* #contenedor_tabs_izquierda{ width: 100%; position: relative; float: left; }
+    #contenedor_tabs_izquierda li{width: 110px; text-align: center; }
+    #contenedor_tabs_izquierda li a{white-space: normal; } */
+
+}
+
+@media (max-width: 955px) {
+    #menu_principal {display: none;}    
+    #contenedor_menus_moviles {display:block;}    
+    #datos_propios_footer {margin-left:35px; float:left;}
+    .dialog-container{ margin: 0 auto;   width: 42%;  max-height: 85%; margin-top: 60px;}
+    .contenedor_tablas{ display:block; }
+    .contenedor_cards{ display:none; }
+    .formulario-centrado{margin-left: 8% !important; margin-right: 8% !important;}
+}
+
+@media (min-width: 700px) {
+    .tabs_impuestos{
+      padding: 0;
+    }
+    .tabWrapper {
+      display: grid;
+    }
+    .tabWrapper > * {
+      padding: 1em 1em;
+    }
+  }
+
+@media (max-width: 650px) {
+    header {height:100px;}
+    #menu_principal {display: none;}    
+    #contenedor_menus_moviles {display:block;}  
+    #logo_producto {height:100px; padding: 22px 10px 10px 28px}
+    #logo_cliente {width: calc(48% - 1px); height:100px;}
+    #logo_producto > img {width:auto; height:55px;}
+    #logo_cliente > img {width:auto; height:100px;}
+    .c2 {width:100%}
+    .c3 {width:100%}
+    .c4 {width:100%}
+    .cp2 {width:100%; margin-left: 10px;}
+    .modulo_noticias {max-width:422px; width:100%;}
+    #carrusel_noticias {max-width:422px !important; width:100% !important;}
+    #sesion_usuario {display:none;}
+    #sesion_usuario_moviles {display:block;}
+    .dialog-container{  width: 70%;  margin: 0 auto; max-height: 90%;margin-top: 60px;}
+    .formulario-centrado{margin-left: 6% !important; margin-right: 6% !important;}
+    .contenedor_tablas{ display:none; }
+    .contenedor_cards{ display:block; }
+
+    .tabs_impuestos form {
+        float: none;
+        display: block;
+    }
+    
+    .tabs_impuestos .tabWrapper {
+        width: 100%;
+        padding: 30px 35px;
+    }
+
+    .tabs_impuestos form label {
+        float: right;
+        text-align:right;
+        }
+        
+        .tabs_impuestos input[type="number"] {
+        float: right;
+        margin-right:0px;
+        }
+        
+        .tabs_impuestos button[name="tabAceptar"] {
+            margin-top: 15px;
+        }
+}
+
+@media (min-width: 600px) {
+    .tabs_impuestos  {
+      padding: 0;
+    }
+    .tabWrapper {
+      display: grid;
+    }
+    .tabWrapper > * {
+      padding: 1em 1em;
+    }
+  }
+
+@media (max-width: 450px) {
+    header {height:80px;}
+    #logo_producto {height:80px; width: 220px;padding: 12px 10px 10px 30px;}
+    #logo_cliente {width: calc(45% - 1px); height:80px;}
+    #logo_producto > img {width:auto; height:50px;}
+    #logo_cliente > img {width:auto; height:80px;}
+    .dialog-container{  width: 85%; margin: 5px;  max-height: 92%; }
+    .formulario-centrado{margin-left: 3% !important; margin-right: 3% !important;}
+    .men-hor li{ width: 95%; }
+    .contenedor_tablas{ display:none; }
+    .contenedor_cards{ display:block; }
+    #menu_principal_moviles li ul {display:none; list-style:none; background-color:#044C6E; width:155px; position: absolute; right:34px; top:45px; padding:0px; z-index:200;}
+
+    .tabs_impuestos form {
+        float: none;
+        display: block;
+    }
+    
+    .tabs_impuestos .tabWrapper {
+        width: 100%;
+        padding: 30px 35px;
+    }
+}
+
